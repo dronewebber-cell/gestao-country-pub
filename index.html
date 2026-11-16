@@ -114,7 +114,7 @@ $('clearBtn').onclick=()=>{if(confirm('Apagar TODOS os dados de teste deste nave
 import {initializeApp} from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
 import {getAuth,onAuthStateChanged,signInWithEmailAndPassword,signOut} from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
 import {getFirestore,doc,getDoc,setDoc} from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
-const firebaseConfig={apiKey:"COLE_API_KEY",authDomain:"COLE_AUTH_DOMAIN",projectId:"COLE_PROJECT_ID",appId:"COLE_APP_ID"};
+const firebaseConfig={apiKey:"AIzaSyDMrOV2UOnYPRJ7VtrfZJ33lV53J06wJV4",authDomain:"countrypubgestao.firebaseapp.com",projectId:"countrypubgestao",appId:"1:549588091901:web:5372d08216ac0ee57e0f94"};
 const authScreen=document.getElementById('authScreen'),appScreen=document.getElementById('protectedApp'),error=document.getElementById('authError'),form=document.getElementById('authForm');
 if(Object.values(firebaseConfig).some(v=>v.startsWith('COLE_')))error.textContent='Falta configurar o Firebase. Não publique antes de preencher os dados.';
 else{
