@@ -1,4 +1,4 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gestão Country Pub</title><style>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gestão Country Pub</title><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20120%2062%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10%2042%20Q27%2056%2048%2042%20Q60%2050%2074%2043%20Q96%2055%20112%2039%20Q104%2057%2078%2057%20L39%2057%20Q18%2056%2010%2042Z%22%20fill%3D%22%23e8bb72%22%20stroke%3D%22%238f5c2b%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M32%2042%20Q38%2025%2044%2010%20Q51%203%2060%2015%20Q70%202%2078%2010%20Q84%2026%2090%2042%20Q62%2050%2032%2042Z%22%20fill%3D%22%23d6a15a%22%20stroke%3D%22%238f5c2b%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M35%2036%20Q60%2045%2087%2036%20L90%2043%20Q60%2052%2032%2043Z%22%20fill%3D%22%2339291d%22%2F%3E%3Cpath%20d%3D%22M56%2040%20L65%2041%20L64%2046%20L55%2045Z%22%20fill%3D%22%23f4d38d%22%2F%3E%3C%2Fsvg%3E"><style>
 :root{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:#f2f2f3;background:#0b0c10}*{box-sizing:border-box}body{margin:0}button,input,select,textarea{font:inherit}button{cursor:pointer}button:disabled{opacity:.5;cursor:not-allowed}.layout{display:flex;min-height:100vh}.side{width:250px;background:#111218;border-right:1px solid #292b34;padding:24px 15px;position:sticky;top:0;height:100vh;flex-shrink:0}.brand{padding:4px 10px 28px;display:flex;gap:12px;align-items:center}.mark{background:linear-gradient(135deg,#f5ca74,#b9832f);color:#1b1408;font-size:23px;font-weight:900;width:45px;height:45px;display:grid;place-items:center;border-radius:13px}.brand b{display:block;font-size:18px;letter-spacing:.7px}.brand small{color:#cba465}.nav{display:grid;gap:7px}.nav button{border:0;background:none;color:#adb0bd;text-align:left;padding:13px 14px;border-radius:11px;font-weight:650}.nav button.active,.nav button:hover{background:#35291b;color:#ffd78e}.nav button span{margin-right:9px}.foot{position:absolute;bottom:20px;color:#777c8d;font-size:11px;padding:12px}.main{min-width:0;flex:1;padding:28px 34px;max-width:1600px}.top{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:22px}.top h1{margin:0;font-size:27px}.muted{color:#9ca0ae}.eyebrow{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#d8aa5e}.tag{background:#2e261a;border:1px solid #5c4527;color:#f4cb82;border-radius:30px;padding:8px 12px;font-size:12px}.hero{background:linear-gradient(120deg,#24201c,#11151c 65%,#25201a);border:1px solid #51402b;border-radius:20px;padding:25px;margin-bottom:20px;display:flex;justify-content:space-between;align-items:center;gap:18px}.hero h2{font-size:25px;margin:5px 0}.hero p{color:#c4b7a4;margin:0}.hero .symbol{font-size:55px;opacity:.7}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-bottom:20px}.stat,.panel{background:#171920;border:1px solid #30313a;border-radius:16px;padding:20px}.stat small{color:#b4b5be}.stat strong{display:block;font-size:26px;margin-top:10px}.stat em{font-size:12px;color:#d4ac6e;font-style:normal}.panels{display:grid;grid-template-columns:1fr 1fr;gap:16px}.panel{margin-bottom:17px}.panel h2{font-size:18px;margin:0 0 16px}.panel h3{font-size:14px;color:#d4b57c}.form{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.field{display:grid;gap:6px;align-content:start}.field label{font-size:12px;color:#b4b6c1}.field input,.field select,.field textarea,.search{width:100%;background:#0e1015;color:#f2f2f3;border:1px solid #3a3c46;border-radius:9px;padding:11px;outline:none;min-width:0}.field input:focus,.field select:focus,.field textarea:focus,.search:focus{border-color:#cba05c}.field textarea{min-height:75px}.span2{grid-column:span 2}.span3{grid-column:span 3}.btn{border:0;border-radius:9px;padding:11px 15px;font-weight:750;background:#d3a258;color:#1a140b}.btn:hover{filter:brightness(1.08)}.btn.secondary{background:#30323c;color:#f1f1f3}.btn.danger{background:#48282c;color:#ffc0c4}.btn.small{font-size:12px;padding:7px 10px}.actions{display:flex;gap:7px;align-items:center;flex-wrap:wrap}.tablewrap{overflow-x:auto}table{width:100%;border-collapse:collapse;min-width:680px}th,td{padding:13px 10px;text-align:left;border-bottom:1px solid #2c2f37;font-size:13px}th{font-size:11px;text-transform:uppercase;letter-spacing:.7px;color:#a4a8b4}td{color:#e3e4e9}.status{font-size:11px;padding:5px 8px;border-radius:7px;display:inline-block;background:#29352f;color:#a6e2ba}.status.late{background:#492b29;color:#ffaaa2}.status.warn{background:#463b29;color:#f6cf88}.hidden{display:none!important}.notice{font-size:12px;color:#a9aab6;line-height:1.6}.empty{padding:20px;color:#969ba8;text-align:center}.split{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:14px}.split h2{margin:0}.search{max-width:290px}.bar{height:8px;background:#33343d;border-radius:8px;overflow:hidden}.bar i{display:block;background:#d2a45e;height:100%}.positive{color:#9bdfb1}.negative{color:#ffaaa2}.quick{display:flex;gap:8px;flex-wrap:wrap}.quick button{background:#282b34;color:#e5d1b1;border:1px solid #45403a;padding:9px 12px;border-radius:10px}.toast{position:fixed;bottom:22px;right:22px;background:#342a1d;color:#ffdfaa;border:1px solid #a17c47;border-radius:12px;padding:14px 18px;max-width:320px;z-index:9}.mobiletop{display:none}@media(max-width:1100px){.stats{grid-template-columns:repeat(2,1fr)}.panels{grid-template-columns:1fr}}@media(max-width:750px){.layout{display:block}.side{position:relative;width:100%;height:auto;padding:12px}.brand{padding:6px}.nav{display:flex;overflow:auto;padding:6px 0}.nav button{white-space:nowrap;font-size:12px;padding:10px}.foot{display:none}.main{padding:16px}.hero{padding:17px}.hero h2{font-size:20px}.hero .symbol{display:none}.top h1{font-size:22px}.form{grid-template-columns:1fr 1fr}.span3{grid-column:span 2}}@media(max-width:470px){.stats{grid-template-columns:1fr 1fr;gap:8px}.stat{padding:12px}.stat strong{font-size:19px}.form{grid-template-columns:1fr}.span2,.span3{grid-column:span 1}.top{align-items:flex-start;flex-direction:column}.tag{font-size:11px}}
 
 /* Login demonstrativo: autenticação real requer Firebase */
@@ -121,7 +121,7 @@ else{
  const firebaseApp=initializeApp(firebaseConfig),auth=getAuth(firebaseApp),firestore=getFirestore(firebaseApp);
  let currentUid=null,queue=Promise.resolve();
  onAuthStateChanged(auth,async user=>{
-  currentUid=null;appScreen.classList.add('hidden');authScreen.classList.remove('hidden');if(!user)return;
+  currentUid=null;appScreen.classList.add('hidden');authScreen.classList.remove('hidden');if(!user){if(!error.textContent.startsWith('Falha')&&!error.textContent.startsWith('E-mail')&&!error.textContent.startsWith('Senha'))error.textContent='';return;}
   try{const snap=await getDoc(doc(firestore,'gestao','countryPub'));const data=snap.exists()?snap.data():{clients:[],debts:[],products:[],finance:[]};
    if(!['clients','debts','products','finance'].every(k=>Array.isArray(data[k])))throw Error('Formato de dados inválido');
    window.countryPubLoad(data);currentUid=user.uid;authScreen.classList.add('hidden');appScreen.classList.remove('hidden');error.textContent='';
@@ -129,7 +129,35 @@ else{
  });
  window.countryPubSave=data=>{if(!currentUid){alert('Sessão não autorizada.');return;}
   queue=queue.catch(()=>{}).then(()=>setDoc(doc(firestore,'gestao','countryPub'),data)).catch(e=>{alert('Falha ao salvar no Firestore: '+e.message);throw e;});};
- form.addEventListener('submit',async e=>{e.preventDefault();error.textContent='';try{await signInWithEmailAndPassword(auth,document.getElementById('authEmail').value.trim(),document.getElementById('authPassword').value);}catch(e){error.textContent='Não foi possível entrar. Confira e-mail, senha e permissões.';}});
+ form.addEventListener('submit',async e=>{
+  e.preventDefault();
+  error.textContent='Verificando acesso ao Firebase...';
+  const submitButton=form.querySelector('button[type="submit"]');
+  if(submitButton)submitButton.disabled=true;
+  try{
+    await signInWithEmailAndPassword(
+      auth,
+      document.getElementById('authEmail').value.trim(),
+      document.getElementById('authPassword').value
+    );
+    error.textContent='Login confirmado. Carregando os dados...';
+  }catch(e){
+    const messages={
+      'auth/invalid-credential':'E-mail ou senha incorretos. Confira os dados cadastrados no Authentication.',
+      'auth/wrong-password':'Senha incorreta. Confira a senha cadastrada.',
+      'auth/user-not-found':'Esse e-mail não foi encontrado no Firebase Authentication.',
+      'auth/invalid-email':'O formato do e-mail não é válido.',
+      'auth/operation-not-allowed':'Ative o método E-mail/senha em Authentication.',
+      'auth/unauthorized-domain':'Domínio não autorizado. Adicione o endereço do GitHub Pages em Authentication > Configurações > Domínios autorizados.',
+      'auth/network-request-failed':'Falha de rede. Confira a conexão com a internet.',
+      'auth/too-many-requests':'Muitas tentativas. Aguarde um pouco antes de tentar novamente.',
+      'auth/api-key-not-valid.-please-pass-a-valid-api-key.':'A chave de configuração do Firebase foi rejeitada.'
+    };
+    error.textContent=(messages[e.code]||'Falha na autenticação: '+(e.code||'erro desconhecido'))+'.';
+  }finally{
+    if(submitButton)submitButton.disabled=false;
+  }
+});
  document.getElementById('logoutBtn').addEventListener('click',async()=>{await queue.catch(()=>{});await signOut(auth);form.reset();});
 }
 </script></body></html>
